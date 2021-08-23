@@ -1,0 +1,51 @@
+:root {
+  --color-primary: #6C63FF;
+  --color-title-primary: #fff;  
+}
+
+.storybook-title {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+  }
+  .storybook-title--primary {
+    color: var(--color-title-primary);
+    background-color: var(--color-primary);
+  }
+  .storybook-title--secondary {
+    color: var(--color-primary);
+    background-color: var(--color-title-primary);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  }
+  .storybook-title--box-title { /* Title para box de pesquisa/inclusão/retirada de lista */
+    width: 192px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .storybook-title--large-box-title { /* Title para box de cadastro/alteração de dados */
+    width: 371px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .storybook-title--page-title {  /* Title principal da página. Header */
+    width: 60vw;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+  }
